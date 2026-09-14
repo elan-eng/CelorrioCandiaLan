@@ -1,3 +1,25 @@
 header img {
     width: 120px;
 }
+body {
+    background-color: #FBF6F5;
+}
+.contenedor-productos {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.productos{
+   width: 250px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+}
+.productos img {
+    width: 220px;
+    height: 220px;
+    border-radius: 10px;
+}

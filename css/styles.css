@@ -8,24 +8,29 @@ main {
 }
 
 header {
-    text-align: center;
+    display: flex;
+    align-items: center;
     background-color: white;
     padding: 15px;
     border: 2px solid #A89A96;
     border-radius: 15px;
+    margin: 10px;
 }
 
 header img {
-    width: 180px;
-    height: 180px;
+    width: 90px;
+    height: 90px;
     border-radius: 50%;
-    border: 3px solid #A89A96;
+    border: 2px solid #A89A96;
 }
 nav a { 
-    color: #A89A96;
+     color: #A89A96;
     text-decoration: none;
-    margin: 0 12px;
-    font-size: 18px;
+    font-size: 17px;
+    margin: 0 10px;
+}
+nav {
+    margin-left: 20px;
 }
 body {
     background-color: #FBF6F5;
@@ -155,4 +160,12 @@ footer {
     padding: 5px ;
     border-radius: 8px;
 }
-
+footer{
+background-color: white;
+border: 2px solid #A89A96;
+border-radius: 15px;
+padding: 15px;
+margin: 20px;
+text-align: center;
+color: #5F5552;
+}

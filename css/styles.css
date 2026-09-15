@@ -1,11 +1,23 @@
+/* El * selecciona todos los elementos de la pagina.
+    El box-sizing: border-box hace que el padding y el borde se cuenten dentro del ancho y alto que le damos a cada elemento. */
+
 * {
     box-sizing: border-box;
 }
+
+
+/* display: flex para poder organizar lo que esta adentro. 
+    flex-direction: column hace que las secciones se acomoden una debajo de la otra. */
 
 main {
     display: flex;
     flex-direction: column;
 }
+
+/* HEADER: 
+    display:flex --> permite acomodar el logo y el menu uno al lado del otro.
+    aling-items: center --> hace que queden alineados en la misma altura. */
+
 
 header {
     display: flex;
@@ -17,31 +29,58 @@ header {
     margin: 10px;
 }
 
+/* LOGO DEL HEADER: 
+    Le damos un tamaño fijo al logo.
+    Con un border-radius: 50% --> para que quede circular. */
+
 header img {
     width: 90px;
     height: 90px;
     border-radius: 50%;
     border: 2px solid #A89A96;
 }
+
+/* LINK DE NAV: 
+    Esto modifica los links <a> que estan adentro del nav.
+    Sacamos el subrayado, cambiamos el color y separamos los links usando margin. */
+
 nav a { 
      color: #A89A96;
     text-decoration: none;
     font-size: 17px;
     margin: 0 10px;
 }
+
+/* NAV:
+    Es el grupo de links del menu.
+    margin-left lo separa un poco del logo. */
+
 nav {
     margin-left: 20px;
 }
+
+
 body {
     background-color: #FBF6F5;
     font-family: Georgia, serif;
     color: #5F5552;
 }
+
+/* CONTENEDOR DE PRODUCTOS:
+    Este div contiene todas las tarjetas de productos.
+    display: flex permite ponerlas una al lado de la otra.flex-wrap: wrap permite que, cuando no entran más, pasen a la fila siguiente. */
+
 .contenedor-productos {
     display: flex;
     flex-wrap: wrap;
     
 }
+
+
+/* TARJETA DE CADA PRODUCTO:
+    Todos los article que tiene class="productos"
+    reciben estos mismos estilos.
+    Asi todas las tarjetas tienen el mismo diseño. */
 
 .productos{
    width: 250px;
@@ -52,6 +91,10 @@ body {
     padding: 10px;
     
 }
+
+/* IMAGENES DE LAS TARJETAS:
+    Modifica unicamente a las imagenes que estan dentro de .productos. */
+
 .productos img {
     width: 220px;
     height: 270px;
@@ -137,32 +180,6 @@ body {
     margin-bottom: 16px;
     background-color: white;
 }
-footer {
-    display: flex;
-    padding: 16px;
-    border-top: solid 1px black;
-}
-
-    .product-main {
-        flex-direction: column;
-    }
-
-    .product-photo {
-        width: 100%;
-        margin-right: 0;
-    }
-
-    .product-info {
-        width: 100%;
-    }
-
-    .review {
-        padding: 12px;
-    }
-
-    .tags li {
-        margin-right: 4px;
-    }
 
 .ver-detalle {
     color: white;
@@ -172,11 +189,12 @@ footer {
     border-radius: 8px;
 }
 footer{
-background-color: white;
-border: 2px solid #A89A96;
-border-radius: 15px;
-padding: 15px;
-margin: 20px;
-text-align: center;
-color: #5F5552;
+    display: flex;
+    background-color: white;
+    border: 2px solid #A89A96;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 20px;
+    text-align: center;
+    color: #5F5552;
 }

@@ -7,10 +7,17 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
+   
     <header> 
+
+
+<!-- El logo esta adentro de un link, eso hace que al hacer click en la imagen vuelva a la Home-->
         <a href="./index.html">
             <img src="./img/logo.png" alt="Logo">
-        </a>      
+        </a> 
+
+
+<!-- Nav: Agrupa los links principales que usamos entre las paginas del sitio -->     
     <nav>
 
      
@@ -20,15 +27,26 @@
     </nav> 
     </header> 
 
+
+<!-- Main: Aca empieza el contenido principal de la Home. -->
+<!-- Todo lo importante de esta pagina va adentro de main. -->
     <main>
+        <!-- Primera Seccion: Esta seccion muestra 10 productos.-->
+         <!-- Cada producto esta armado como una tarjeta individual.-->
         <section>
             <h2> Más Vendidos</h2>
+            <!-- Este <div> agrupa todas las tarjetas de productos, -->
+            <!-- Tiene la clase "contenedor-productos" porque en CSS usamos esa clase para acomodar las tarjetas una al lado de la otra con Flexbox. -->
             <div class="contenedor-productos">
+                <!-- Cada ARTICLE representa un producto entero.-->
                 <article class="productos">
                     <img src="./img/flash.png" alt="Collar Flash">
                     <h3>Collar Flash</h3>
                     <p>Descripción del producto</p>
+                    <!-- El precio tiene un class para poder darle un estilo distinto -->
                     <p class="precio">$20.000</p>
+                    <!-- Lo mismo ocurre con ver detalle, para empezar tiene una etiqueta <a> porque lleva un link-->
+                    <!-- Y la clase esta puesta para poder darle un estilo diferente-->
                     <a class="ver-detalle" href="./product.html">Ver detalle</a>
                 </article>
                 <article class="productos">

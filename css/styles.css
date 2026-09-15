@@ -1,12 +1,13 @@
-/* El * selecciona todos los elementos de la pagina.
-    El box-sizing: border-box hace que el padding y el borde se cuenten dentro del ancho y alto que le damos a cada elemento. */
+/* " El * selecciona todos los elementos de la pagina." 
+   " El box-sizing: border-box hace que el padding y el borde se cuenten dentro del ancho y alto que le damos a cada elemento." */
 
 * {
     box-sizing: border-box;
 }
 
 
-/* display: flex para poder organizar lo que esta adentro. 
+/* MAIN: 
+    display: flex para poder organizar lo que esta adentro. 
     flex-direction: column hace que las secciones se acomoden una debajo de la otra. */
 
 main {
@@ -59,6 +60,9 @@ nav {
     margin-left: 20px;
 }
 
+/* DIFERENCIA CLAVE ENTRE NAV A Y NAV: 
+    nav a: lo usamos para poder editar el estilo de los links
+    nav: lo usamos para editar su posicionamiento. 
 
 body {
     background-color: #FBF6F5;

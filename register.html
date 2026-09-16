@@ -13,11 +13,39 @@
             <img src="./img/logo.png" alt="Logo">
         </a> 
        <nav>
-        <a href="./index.html">Home</a> 
-        <a href="./login.html">Login</a>
-        <a href="./register.html">Register</a>  
-    </nav> 
+            <a href="./index.html">Home</a> 
+            <a href="./login.html">Login</a>
+            <a href="./register.html">Register</a>  
+        </nav> 
     </header>
+
+    <main class="form">
+        <h1>Bienvenido a Crealia &#9734</h1>
+        <p>Por favor ingresa sus datos personales para registrarse</p>
+
+        <form action="index.html" method="GET">
+            <div>
+                <input type="text" name="nom" value="" placeholder="Nombre">
+            </div>
+            <div>
+                <input type="text" name="sur" value="" placeholder="Apellido">
+            </div>
+            <div>
+                <input type="email" name="email" value="" placeholder="Email">
+            </div>
+            <div>
+                <input type="password" name="pass" value="" placeholder="Contraseña">
+            </div>
+            <div>
+                <button type="submit">Crear cuenta</button>
+            </div>
+
+            <div>
+                ¿Ya tenes tu cuenta? <a href="./login.html">Inicie sesión aquí</a>
+            </div>        
+        </form>
+    </main>
+
     <footer>
         <p>Equipo: Celorrio, Candia, Lan</p>
     </footer>

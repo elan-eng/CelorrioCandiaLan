@@ -202,3 +202,35 @@ footer{
     text-align: center;
     color: #5F5552;
 }
+
+
+
+/* ACA ESTA TODO EL STYLE DE LOS FORMULARIOS */
+
+.form {
+    margin: 25px;
+    margin-bottom: 70px;
+}
+
+.form h1 {
+    color: #8F817D;
+    font-size: 48px;
+    margin: 50px 0 20px;
+}
+
+.form div {
+    margin: 0 0 10px;
+}
+
+.form button {
+    color: white;
+    background-color: #A89A96;
+    text-decoration: none;
+    padding: 5px ;
+    border-radius: 8px;
+    margin: 0 0 15px;
+}
+
+.form a {
+    color: #8F817D;
+}

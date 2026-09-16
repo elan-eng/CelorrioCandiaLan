@@ -35,10 +35,19 @@ nav {
     margin-left: 20px;
 }
 
+body {
+    background-color:#F9F3F1;
+    font-family: Georgia, serif;
+    color: #5F5552;
+}
+section h2 {
+    margin-left: 30px;
+}
+
 .contenedor-productos {
     display: flex;
     flex-wrap: wrap;
-    
+    justify-content: center;
 }
 
 .productos{
@@ -48,6 +57,7 @@ nav {
     border-radius: 10px;
     text-align: center;
     padding: 10px;
+    border: 1px solid #E8DDDA;
     
 }
 .productos img {

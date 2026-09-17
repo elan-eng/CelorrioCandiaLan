@@ -25,7 +25,7 @@ header img {
 }
 
 nav a { 
-     color: #A89A96;
+    color: #A89A96;
     text-decoration: none;
     font-size: 17px;
     margin: 0 10px;
@@ -164,6 +164,37 @@ footer{
     color: #5F5552;
 }
 
+
+/* ESTILO MENU DE NAVEGACION */
+
+nav {
+    display: flex;
+    align-content: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 0 20px;
+    display: flex;
+    gap: 15px;
+}
+
+nav li {
+    padding: 0;
+    margin: 0;
+}
+
+.busqueda {
+    display: flex;
+    margin: 0 0 0 170%;
+}
+
+.busqueda div {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
 
 
 /* ACA ESTA TODO EL STYLE DE LOS FORMULARIOS */

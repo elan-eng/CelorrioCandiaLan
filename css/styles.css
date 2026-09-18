@@ -24,7 +24,7 @@ header img {
     border: 2px solid #A89A96;
 }
 
-nav a { 
+nav a {
     color: #A89A96;
     text-decoration: none;
     font-size: 17px;
@@ -36,10 +36,15 @@ nav {
 }
 
 body {
-    background-color:#F9F3F1;
+    background-color: #F9F3F1;
     font-family: Georgia, serif;
     color: #5F5552;
+    margin: 0;
+    background-image: url('../img/images/background.png');
+    background-repeat: repeat;
+    background-color: #ededed;
 }
+
 section h2 {
     margin-left: 30px;
 }
@@ -50,16 +55,17 @@ section h2 {
     justify-content: center;
 }
 
-.productos{
-   width: 250px;
+.productos {
+    width: 250px;
     margin: 10px;
     background-color: white;
     border-radius: 10px;
     text-align: center;
     padding: 10px;
     border: 1px solid #E8DDDA;
-    
+
 }
+
 .productos img {
     width: 220px;
     height: 270px;
@@ -127,6 +133,7 @@ section h2 {
     margin-bottom: 16px;
     background-color: white;
 }
+
 .review2 {
     display: flex;
     flex-direction: column;
@@ -136,8 +143,9 @@ section h2 {
     margin-bottom: 16px;
     background-color: white;
 }
+
 .review3 {
-   display: flex;
+    display: flex;
     flex-direction: column;
     border: 1px solid #8F817D;
     border-radius: 10px;
@@ -150,10 +158,11 @@ section h2 {
     color: white;
     background-color: #A89A96;
     text-decoration: none;
-    padding: 5px ;
+    padding: 5px;
     border-radius: 8px;
 }
-footer{
+
+footer {
     display: flex;
     background-color: white;
     border: 2px solid #A89A96;
@@ -184,6 +193,8 @@ nav ul {
 nav li {
     padding: 0;
     margin: 0;
+    list-style-type: none;
+
 }
 
 .busqueda {

@@ -178,6 +178,7 @@ nav ul {
     margin: 0 0 0 20px;
     display: flex;
     gap: 15px;
+    align-items: center;
 }
 
 nav li {
@@ -187,13 +188,27 @@ nav li {
 
 .busqueda {
     display: flex;
-    margin: 0 0 0 170%;
+    margin: 0 0 0 115%;
 }
 
 .busqueda div {
     display: flex;
     align-items: center;
     gap: 3px;
+}
+
+.busqueda div input {
+    width: 300px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 5px;
+}
+
+.busqueda div button {
+    color: white;
+    background-color: #A89A96;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 3px;
+    padding: 5px;
 }
 
 
@@ -214,11 +229,17 @@ nav li {
     margin: 0 0 10px;
 }
 
+.form input {
+    width: 500px;
+    padding: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 .form button {
     color: white;
     background-color: #A89A96;
     text-decoration: none;
-    padding: 5px ;
+    padding: 5px;
     border-radius: 8px;
     margin: 0 0 15px;
     font-family: Georgia, 'Times New Roman', Times, serif;

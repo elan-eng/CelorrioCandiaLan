@@ -53,6 +53,7 @@ section h2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: flex-end;
 }
 
 .productos {
@@ -186,9 +187,8 @@ nav ul {
     align-items: center;
 
     .home {
-        margin-right 16px;
+        margin-right: 16px;
     }
-
     .logIn {
         margin-right: 16px;
     }
@@ -389,4 +389,28 @@ nav li {
     .busqueda botton {
         width: 100%;
     }
+}
+.CategoriasProductos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 220px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+}
+.CategoriasProductos ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.CategoriasProductos li {
+    margin-bottom: 8px;
+}
+
+.CategoriasProductos a {
+    color: #5F5552;
+    text-decoration: underline;
 }

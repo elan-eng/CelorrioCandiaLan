@@ -4,7 +4,7 @@
 
 main {
     display: flex;
-    flex-direction: column;
+    flex-direction:row;
 }
 
 header {
@@ -45,15 +45,17 @@ body {
     background-color: #ededed;
 }
 
-section h2 {
-    margin-left: 30px;
-}
 
 .contenedor-productos {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: flex-end;
+}
+.contenedor-productos h2 {
+    width: 100%;
+    text-align: center
+    margin-bottom: 15px
 }
 
 .productos {
@@ -407,7 +409,7 @@ nav li {
 }
 
 .CategoriasProductos li {
-    margin-bottom: 8px;
+    margin-bottom: 20px;
 }
 
 .CategoriasProductos a {

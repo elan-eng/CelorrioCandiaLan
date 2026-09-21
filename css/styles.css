@@ -36,13 +36,12 @@ nav {
 }
 
 body {
-    background-color: #F9F3F1;
     font-family: Georgia, serif;
     color: #5F5552;
     margin: 0;
     background-image: url('../img/images/background.png');
     background-repeat: repeat;
-    background-color: #ededed;
+    background-color: #F7F0EE;
 }
 
 section h2 {

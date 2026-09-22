@@ -50,11 +50,12 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: flex-end;
+    margin-bottom: 50px;
 }
 .contenedor-productos h2 {
     width: 100%;
     text-align: center;
-    margin-top: 34px;
+    margin-top: 40px;
     margin-bottom: 30px;
 }
 
@@ -176,6 +177,7 @@ footer {
     color: #5F5552;
 }
 
+
 nav {
     display: flex;
     align-content: center;
@@ -230,6 +232,7 @@ nav li {
 
 
 .form {
+    display: block;
     margin: 25px;
     margin-bottom: 70px;
 }
@@ -392,14 +395,17 @@ nav li {
         width: 100%;
     }
 }
+
 .CategoriasProductos {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 220px;
+    width: 300px;
     background-color: white;
-    border-radius: 10px;
-    padding: 15px;
+    border: 2px solid #A89A96;
+    border-radius: 15px;
+    padding: 25px;
+    padding-right: 80px;
     margin: 10px;
 }
 .CategoriasProductos ul {

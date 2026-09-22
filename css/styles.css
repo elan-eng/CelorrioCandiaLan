@@ -125,7 +125,7 @@ body {
     display: flex;
     flex-direction: column;
     padding: 24px;
-    border-top: solid 1.5px #8F817D;
+    margin-left: 30px;
 }
 
 .review1 {

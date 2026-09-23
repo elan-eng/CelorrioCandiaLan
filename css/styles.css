@@ -15,6 +15,7 @@ header {
     border: 2px solid #A89A96;
     border-radius: 15px;
     margin: 10px;
+    justify-content: space-between;
 }
 
 header img {
@@ -177,6 +178,10 @@ footer {
     color: #5F5552;
 }
 
+.navegacion {
+    display: flex;
+    align-items: center;
+}
 
 nav {
     display: flex;
@@ -207,7 +212,6 @@ nav li {
 
 .busqueda {
     display: flex;
-    margin: 0 0 0 85%;
 }
 
 .busqueda div {

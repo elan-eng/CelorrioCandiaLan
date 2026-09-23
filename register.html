@@ -9,26 +9,25 @@
 </head>
 <body>
     <header>
-        <a href="./index.html">
-            <img src="./img/logo.png" alt="Logo">
-        </a> 
+        <div class="navegacion">
+            <a href="./index.html">
+                <img src="./img/logo.png" alt="Logo">
+            </a>
+            <nav>
+                <ul>
+                    <li><a class="Home" href="./index.html">Home</a></li>
+                    <li><a class="LogIn" href="./login.html">Login</a></li>
+                    <li><a class="Register" href="./register.html">Register</a></li>
+                </ul>
+            </nav>            
+        </div>
 
-       <nav>
-            <!-- Enlaces de navegacion -->
-            <ul>
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./login.html">Login</a></li>
-                <li><a href="./register.html">Register</a></li>
-            </ul>
-
-            <!-- Barra de busqueda -->
-            <form action="./product.html" method="get" class="busqueda">
-                <div>
-                    <input id="busqueda" type="text" name="buscar" value="" placeholder="Encontra lo que necesites">
-                    <button type="submit">Buscar</button>
-                </div>
-            </form>
-        </nav> 
+        <form action="./product.html" method="get" class="busqueda">
+            <div>
+                <input id="busqueda" type="text" name="buscar" value="" placeholder="Encontra lo que necesites">
+                <button type="submit">Buscar</button>
+            </div>
+        </form>
     </header>
 
     <main class="logReg">

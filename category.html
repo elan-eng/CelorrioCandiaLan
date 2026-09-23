@@ -8,22 +8,25 @@
 </head>
 <body>
     <header>
-        <a href="./index.html">
-            <img src="./img/logo.png" alt="Logo">
-        </a>
-        <nav>
-            <ul>
-                <li><a class="Home" href="./index.html">Home</a></li>
-                <li><a class="LogIn" href="./login.html">Login</a></li>
-                <li><a class="Register" href="./register.html">Register</a></li>
-            </ul>
-            <form action="./product.html" method="get" class="busqueda">
-                <div>
-                    <input id="busqueda" type="text" name="buscar" value="" placeholder="Encontra lo que necesites">
-                    <button type="submit">Buscar</button>
-                </div>
-            </form>
-        </nav>
+        <div class="navegacion">
+            <a href="./index.html">
+                <img src="./img/logo.png" alt="Logo">
+            </a>
+            <nav>
+                <ul>
+                    <li><a class="Home" href="./index.html">Home</a></li>
+                    <li><a class="LogIn" href="./login.html">Login</a></li>
+                    <li><a class="Register" href="./register.html">Register</a></li>
+                </ul>
+            </nav>            
+        </div>
+
+        <form action="./product.html" method="get" class="busqueda">
+            <div>
+                <input id="busqueda" type="text" name="buscar" value="" placeholder="Encontra lo que necesites">
+                <button type="submit">Buscar</button>
+            </div>
+        </form>
     </header>
     <main>
         <aside class="CategoriasProductos">

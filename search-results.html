@@ -8,15 +8,62 @@
 </head>
 <body>
     <header>
-         <a href="./index.html">
-            <img src="./img/logo.png" alt="Logo">
-        </a> 
-      <nav>
-        <a href="./index.html">Home</a> 
-        <a href="./login.html">Login</a>
-        <a href="./register.html">Register</a>  
-    </nav> 
+        <div class="navegacion">
+            <a href="./index.html">
+                <img src="./img/logo.png" alt="Logo">
+            </a>
+            <nav>
+                <ul>
+                    <li><a class="Home" href="./index.html">Home</a></li>
+                    <li><a class="LogIn" href="./login.html">Login</a></li>
+                    <li><a class="Register" href="./register.html">Register</a></li>
+                </ul>
+            </nav>            
+        </div>
+
+        <form action="./search-results.html" method="get" class="busqueda">
+            <div>
+                <input id="busqueda" type="text" name="buscar" value="" placeholder="Encontrá lo que necesites">
+                <button type="submit">Buscar</button>
+            </div>
+        </form>
     </header>
+    <main>
+                <aside class="CategoriasProductos">
+            <h2> Categorías </h2>
+            <ul>
+                <li> <a href="./category.html"> Beauty </a> </li>
+                <li> <a href="./category.html"> Fragances </a> </li>
+                <li> <a href="./category.html"> Furniture </a></li>
+                <li> <a href="./category.html"> Groceries </a></li>
+                <li> <a href="./category.html"> Home Decoration </a></li>
+                <li> <a href="./category.html"> Kitchen Accesories </a></li>
+                <li> <a href="./category.html"> Laptops </a></li>
+                <li> <a href="./category.html"> Mens Shirts </a></li>
+                <li> <a href="./category.html"> Mens Shoes </a></li>
+                <li> <a href="./category.html"> Mens Watches </a></li>
+                <li> <a href="./category.html"> Mobile Accesories </a></li>
+                <li> <a href="./category.html"> Motorcycle </a></li>
+                <li> <a href="./category.html"> Skin Care </a></li>
+                <li> <a href="./category.html"> Smartphones </a></li>
+                <li> <a href="./category.html"> Sports Accesories </a></li>
+                <li> <a href="./category.html"> Sunglasses </a></li>
+                <li> <a href="./category.html"> Tablets </a></li>
+                <li> <a href="./category.html"> Tops </a></li>
+                <li> <a href="./category.html"> Vehicle </a></li>
+                <li> <a href="./category.html"> Womens Bags </a></li>
+                <li> <a href="./category.html"> Womens Dresses </a></li>
+                <li> <a href="./category.html"> Womens Jewellery </a></li>
+                <li><a href="./category.html"> Womens Shoes </a></li>
+                <li><a href="./category.html"> Womens Watches </a></li>
+            </ul>
+        </aside>
+
+        <div class="searchResults">
+            <h1>Tu búsqueda de:</h1>
+        </div>
+        
+    </main>
     <footer>
         <p>Equipo: Celorrio, Candia, Lan</p>
     </footer>

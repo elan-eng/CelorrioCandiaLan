@@ -426,3 +426,7 @@ nav li {
     color: #5F5552;
     text-decoration: underline;
 }
+
+.searchResults {
+    margin: 25px;
+}

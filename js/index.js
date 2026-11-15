@@ -4,11 +4,18 @@ fetch ('https://dummyjson.com/products/category/mobile-accessories')
         return response.json();
     })
     .then(function (data){
+        let productos = data.products;
+    
+        for (let i = 0; i < productos.length; i++) {
+        let producto = productos[i];
+        console.log(producto); 
+    
+    }
         console.log(data);
     })
     .catch(function (error){
         console.log('El error es:' + error);
     });
 
-    let seccion = document.querySelector ("#mas-vendidos");
+    let seccion = document.querySelector ("#lista-mas-vendidos");
     

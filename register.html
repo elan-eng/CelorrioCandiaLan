@@ -65,7 +65,7 @@
             <h1>Bienvenido a Crealia &#9734</h1>
             <p>Por favor ingresa sus datos personales para registrarse</p>
 
-            <form action="index.html" method="GET">
+            <form action="login.html" method="GET" class="register">
                 <div>
                     <input type="text" name="nom" value="" placeholder="Nombre" required>
                 </div>
@@ -76,10 +76,10 @@
                     <input type="email" name="email" value="" placeholder="Email" required>
                 </div>
                 <div>
-                    <input type="password" name="pass" value="" placeholder="Contraseña" required>
+                    <input class="pass" type="password" name="pass" value="" placeholder="Contraseña" required>
                 </div>
                 <div>
-                    <input type="password" name="pass" value="" placeholder="Repetir contraseña" required>
+                    <input class="pass2" type="password" name="pass2" value="" placeholder="Repetir contraseña" required>
                 </div>
                 <div>
                     <button type="submit">Crear cuenta</button>
@@ -102,5 +102,7 @@
     <footer>
         <p>Equipo: Celorrio, Candia, Lan</p>
     </footer>
+
+    <script src="./js/register.js"></script>
 </body>
 </html>

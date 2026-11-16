@@ -59,15 +59,12 @@
             </ul>
         </aside>
 
-        <div>
-            <div class="searchResults">
-                <h1>Tu búsqueda de:</h1>
-                <p>"Collares"</p>
-                <h1>No se han encontrado resultados para: </h1>
-                <p>"Collares"</p>
-            </div>
+        <div class="searchResults">
+            <h1 id="titulo-resultados"></h1>
+            <p id="mensaje-sin-resultados"></p>
+        </div>
         
-            <section class="contenedor-productos">
+           <section class="contenedor-productos" id="lista-resultados"></section>
                 <article class="productos">
                     <img src="./img/flash.png" alt="Collar Flash">
                     <h3>Collar Flash</h3>
@@ -116,5 +113,7 @@
     <footer>
         <p>Equipo: Celorrio, Candia, Lan</p>
     </footer>
+
+    <script src="./js/search-results.js"></script>
 </body>
 </html>

@@ -64,15 +64,15 @@
             <h1>Bienvenido de nuevo &#9825</h1>
             <p>Por favor, ingrese sus datos personales para iniciar sesión</p>
 
-            <form action="index.html" method="GET">
+            <form action="index.html" method="GET" class="login">
                 <div>
-                    <input type="email" name="email" value="" placeholder="Email" required>
+                    <input class="email" type="email" name="email" value="" placeholder="Email" required>
                 </div>
                 <div>
-                    <input type="password" name="pass" value="" placeholder="Contraseña" required>
+                    <input class="pass" type="password" name="pass" value="" placeholder="Contraseña" required>
                 </div>
                 <div>
-                    <button type="submit">Iniciar sesión</button>
+                    <button class="submit" type="submit">Iniciar sesión</button>
                 </div>
 
                 <div>
@@ -86,5 +86,7 @@
     <footer>
         <p>Equipo: Celorrio, Candia, Lan</p>
     </footer>
+
+    <script src="./js/login.js"></script>
 </body>
 </html>

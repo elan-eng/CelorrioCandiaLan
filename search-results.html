@@ -21,12 +21,13 @@
             </nav>            
         </div>
 
-        <form action="./search-results.html" method="get" class="busqueda">
-            <div>
-                <input id="busqueda" type="text" name="buscar" value="" placeholder="Encontrá lo que necesites">
-                <button type="submit">Buscar</button>
-            </div>
-        </form>
+       <form action="./search-results.html" method="get" class="busqueda" id="form-busqueda">
+    <div>
+        <input id="busqueda" type="text" name="buscar" value="" placeholder="Encontrá lo que necesites">
+        <button type="submit">Buscar</button>
+    </div>
+    <p id="error-busqueda"></p>
+</form>
     </header>
     <main>
                 <aside class="CategoriasProductos">
@@ -59,13 +60,20 @@
             </ul>
         </aside>
 
+       
         <div class="searchResults">
             <h1 id="titulo-resultados"></h1>
             <p id="mensaje-sin-resultados"></p>
         </div>
-        
-           <section class="contenedor-productos" id="lista-resultados"></section>
-                <article class="productos">
+        <div class="searchResults">
+    <h1 id="titulo-resultados"></h1>
+    <p id="mensaje-sin-resultados"></p>
+
+    <section class="contenedor-productos" id="lista-resultados"></section>
+    </div>
+         <!--   
+        <article class="productos">
+          <section class="contenedor-productos" id="lista-resultados"></section>
                     <img src="./img/flash.png" alt="Collar Flash">
                     <h3>Collar Flash</h3>
                     <p>Descripción del producto</p>
@@ -106,9 +114,10 @@
                     <p>Descripción del producto</p>
                     <p class="precio">$15.000</p>
                     <a class="ver-detalle" href="./product.html">Ver detalle</a>
-                </article>
+                </article>   -->
             </section>
         </div>
+      
     </main>
     <footer>
         <p>Equipo: Celorrio, Candia, Lan</p>

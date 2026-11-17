@@ -22,13 +22,15 @@
                 </ul>
             </nav>            
         </div>
-
-        <form action="./search-results.html" method="get" class="busqueda">
+       
+        <form action="./search-results.html" method="get" class="busqueda" id="form-busqueda">
             <div>
                 <input id="busqueda" type="text" name="buscar" value="" placeholder="Encontrá lo que necesites">
                 <button type="submit">Buscar</button>
             </div>
+            <p id="error-busqueda"></p>
         </form>
+
     </header>
     <main>
         <aside class="CategoriasProductos">
@@ -217,7 +219,7 @@
 
 
     <script src="./js/index.js"></script>
-    <script src="./js/saludo.js"></script>
+    <script src="./js/search-results.js"></script>
 </body>
 
 </html>

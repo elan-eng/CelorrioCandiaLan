@@ -67,19 +67,15 @@
 
             <form action="login.html" method="GET" class="register">
                 <div>
-                    <input type="text" name="nom" value="" placeholder="Nombre" required>
+                    <input type="email" name="email" value="" placeholder="Email" class="email">
+                    <p id="email"></p>
                 </div>
                 <div>
-                    <input type="text" name="sur" value="" placeholder="Apellido" required>
+                    <input class="pass" type="password" name="pass" value="" placeholder="Contraseña" >
                 </div>
                 <div>
-                    <input type="email" name="email" value="" placeholder="Email" required>
-                </div>
-                <div>
-                    <input class="pass" type="password" name="pass" value="" placeholder="Contraseña" required>
-                </div>
-                <div>
-                    <input class="pass2" type="password" name="pass2" value="" placeholder="Repetir contraseña" required>
+                    <input class="pass2" type="password" name="pass2" value="" placeholder="Repetir contraseña" >
+                    <p id="pass"></p>
                 </div>
                 <div>
                     <button type="submit">Crear cuenta</button>

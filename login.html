@@ -15,8 +15,8 @@
             <nav>
                 <ul>
                     <li><a class="Home" href="./index.html">Home</a></li>
-                    <li><a class="LogIn" href="./login.html">Login</a></li>
-                    <li><a class="Register" href="./register.html">Register</a></li>
+                    <li><a id="saludoUser" class="LogIn" href="./login.html">Login</a></li>
+                    <li><a id="saludoLogout" class="Register" href="./register.html">Register</a></li>
                 </ul>
             </nav>            
         </div>
@@ -66,12 +66,12 @@
 
             <form action="index.html" method="GET" class="login">
                 <div>
-                    <input class="email" type="email" name="email" value="" placeholder="Email" >
-                    <label id="email"></label>
+                    <input class="email" type="email" name="email" value="" placeholder="Email" autocomplete="off">
+                    <p id="email"></p>
                 </div>
                 <div>
                     <input class="pass" type="password" name="pass" value="" placeholder="Contraseña" >
-                    <label id="pass"></label>
+                    <p id="pass"></p>
                 </div>
                 <div>
                     <button class="submit" type="submit">Iniciar sesión</button>
@@ -90,5 +90,7 @@
     </footer>
 
     <script src="./js/login.js"></script>
+    <script src="./js/saludo.js"></script>
+
 </body>
 </html>

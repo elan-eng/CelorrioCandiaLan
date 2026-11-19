@@ -24,7 +24,6 @@ form.addEventListener("submit", function(event){
 
     } else if (pass.value.length < 6) {
         labelPass.innerHTML = "*La contraseña debe tener al menos 6 caracteres*"
-
     }
     
     
@@ -33,7 +32,9 @@ form.addEventListener("submit", function(event){
         labelPass.innerHTML = ""
         this.submit();
     }
-});
 
+
+    localStorage.setItem("email", email.value);
+});
 
 

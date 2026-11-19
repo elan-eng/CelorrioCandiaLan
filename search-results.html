@@ -15,8 +15,8 @@
             <nav>
                 <ul>
                     <li><a class="Home" href="./index.html">Home</a></li>
-                    <li><a class="LogIn" href="./login.html">Login</a></li>
-                    <li><a class="Register" href="./register.html">Register</a></li>
+                    <li><a id="saludoUser" class="LogIn" href="./login.html">Login</a></li>
+                    <li><a id="saludoLogout" class="Register" href="./register.html">Register</a></li>
                 </ul>
             </nav>            
         </div>
@@ -30,7 +30,7 @@
 </form>
     </header>
     <main>
-                <aside class="CategoriasProductos">
+        <aside class="CategoriasProductos">
             <h2> Categorías </h2>
             <ul>
                 <li> <a href="./category.html"> Beauty </a> </li>
@@ -65,12 +65,15 @@
             <h1 id="titulo-resultados"></h1>
             <p id="mensaje-sin-resultados"></p>
         </div>
-        <div class="searchResults">
-    <h1 id="titulo-resultados"></h1>
-    <p id="mensaje-sin-resultados"></p>
 
-    <section class="contenedor-productos" id="lista-resultados"></section>
-    </div>
+        <div class="searchResults">
+            <h1 id="titulo-resultados"></h1>
+            <p id="mensaje-sin-resultados"></p>
+
+            <section class="contenedor-productos" id="lista-resultados"></section>
+        </div>
+
+
          <!--   
         <article class="productos">
           <section class="contenedor-productos" id="lista-resultados"></section>
@@ -124,5 +127,7 @@
     </footer>
 
     <script src="./js/search-results.js"></script>
+    <script src="./js/saludo.js"></script>
+
 </body>
 </html>

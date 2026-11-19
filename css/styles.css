@@ -306,6 +306,13 @@ nav li {
 }
 
 
+#email, #pass, #pass2 {
+    color: #8F817D;
+    font-family: Helvetica, sans-serif;
+}
+
+
+
 
 @media (max-width: 420px) {
     header {

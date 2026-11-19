@@ -12,7 +12,7 @@ form.addEventListener("submit", function(event){
     event.preventDefault(); 
 
     if (email.value == "") {
-        labelEmail.innerHTML = "El campo esta vacio. El formulario no va a enviarse"
+        labelEmail.innerHTML = "*El campo esta vacio. El formulario no va a enviarse*"
 
     } else {
         labelEmail.innerHTML = ""
@@ -20,10 +20,10 @@ form.addEventListener("submit", function(event){
 
 
     if (pass.value == "") {
-        labelPass.innerHTML = "El campo esta vacio. El formulario no va a enviarse"
+        labelPass.innerHTML = "*El campo esta vacio. El formulario no va a enviarse*"
 
     } else if (pass.value.length < 6) {
-        labelPass.innerHTML = "La contraseña debe tener al menos 6 caracteres"
+        labelPass.innerHTML = "*La contraseña debe tener al menos 6 caracteres*"
 
     }
     

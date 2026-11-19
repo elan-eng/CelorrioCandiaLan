@@ -5,6 +5,7 @@ let pass = document.querySelector(".pass");
 let pass2 = document.querySelector(".pass2");
 let labelEmail = document.querySelector("#email");
 let labelPass = document.querySelector("#pass");
+let labelPass2 = document.querySelector("#pass2");
 
 
 
@@ -13,7 +14,7 @@ form.addEventListener("submit", function(event){
     event.preventDefault()
 
     if (email.value == "") {
-        labelEmail.innerHTML = "El campo esta vacio. El formulario no va a enviarse"
+        labelEmail.innerHTML = "*El campo esta vacio. El formulario no va a enviarse*"
         
     } else {
         labelEmail.innerHTML = ""
@@ -21,19 +22,28 @@ form.addEventListener("submit", function(event){
 
 
     if (pass.value == "") {
-        labelPass.innerHTML = "El campo esta vacio. El formulario no va a enviarse"
+        labelPass.innerHTML = "*El campo esta vacio. El formulario no va a enviarse*"
 
     } else if (pass.value.length < 6) {
-        labelPass.innerHTML = "La contraseña debe tener al menos 6 caracteres"
+        labelPass.innerHTML = "*La contraseña debe tener al menos 6 caracteres*"
+
+    } else {
+        labelPass.innerHTML = ""
+    }
+    
+    
+    if (pass2.value == "") {
+        labelPass2.innerHTML = "*El campo esta vacio. El formulario no va a enviarse*"
 
     } else if (pass.value !== pass2.value) {
-        labelPass.innerHTML = "La contraseña debe ser la misma"
+        labelPass2.innerHTML = "*La contraseña debe ser la misma*"
     }
     
     
     else {
         labelEmail.innerHTML = ""
         labelPass.innerHTML = ""
+        labelPass2.innerHTML = ""
         this.submit();
     }
     

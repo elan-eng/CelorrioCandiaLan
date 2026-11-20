@@ -3,7 +3,8 @@ let mensaje = document.querySelector("#mensaje-sin-resultados");
 let seccionResultados = document.querySelector("#lista-resultados");
 
 if (titulo != null) {
-    let parametros = new URLSearchParams(window.location.search);
+    let queryString = location.search;
+    let parametros = new URLSearchParams(queryString);
     let busqueda = parametros.get("buscar");
 
 titulo.innerHTML = `Resultados de búsqueda para: ${busqueda}`;

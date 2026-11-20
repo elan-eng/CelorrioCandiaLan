@@ -23,7 +23,7 @@ fetch(`https://dummyjson.com/products/${idProducto}`)
             }
         }
         detalleProducto.innerHTML = `
-            <img class="FotoProducto" src="${data.thumbnail}" alt="${data.title}">
+            <img class="FotoProducto" src="${data.images[0]}" alt="${data.title}">
             <div class="InfoProducto">
                 <h1>${data.title}</h1>
                 <p>Marca: ${marca}</p>

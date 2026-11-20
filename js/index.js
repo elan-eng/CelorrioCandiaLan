@@ -36,7 +36,7 @@ fetch ('https://dummyjson.com/products/category/mobile-accessories')
    
    `
         <article class="productos">
-            <img src="${producto.thumbnail}" alt="${producto.title}">
+            <img src="${producto.images[0]}" alt="${producto.title}">
             <h3>${producto.title}</h3>
             <p>${producto.description}</p>
             <p class="precio">$${producto.price}</p>
@@ -44,8 +44,8 @@ fetch ('https://dummyjson.com/products/category/mobile-accessories')
         </article>
     `;
     // `: Sirve para crear un string que contenga el codigo HTML de un producto, en este caso el codigo HTML de un producto es un string que contiene el codigo HTML de un producto
-    // thumbnail: Sirve para acceder a la propiedad thumbnail del objeto producto, en este caso la propiedad thumbnail es un string que contiene la URL de la imagen del producto
-    // ${producto.thumbnail}: Sirve para acceder a la propiedad thumbnail del objeto producto, en este caso la propiedad thumbnail es un string que contiene la URL de la imagen del producto
+    // images[0]: Sirve para acceder a la primera imagen del array de imagenes del objeto producto, en este caso la propiedad images es un array que contiene las URLs de las imagenes del producto
+    // ${producto.images[0]}: Sirve para acceder a la primera imagen del array de imagenes del objeto producto, en este caso la propiedad images es un array que contiene las URLs de las imagenes del producto
     // ${producto.title}: Sirve para acceder a la propiedad title del objeto producto, en este caso la propiedad title es un string que contiene el titulo del producto
 
         console.log(producto); 
@@ -72,7 +72,7 @@ fetch ('https://dummyjson.com/products/category/kitchen-accessories')
 
    seccionAleatorios.innerHTML += `
         <article class="productos">
-            <img src="${producto.thumbnail}" alt="${producto.title}">
+            <img src="${producto.images[0]}" alt="${producto.title}">
             <h3>${producto.title}</h3>
             <p>${producto.description}</p>
             <p class="precio">$${producto.price}</p>

@@ -13,13 +13,13 @@ if (LOGOUT) {
             let saludoUser = document.querySelector("#saludoUser");
             if (saludoUser) {
                 saludoUser.innerText = "Login";
-                saludoUser.setAttribute("href", "./login.html")
+                saludoUser.href = "./login.html";
                 saludoUser.style.color = ""
                 saludoUser.style.fontWeight = ""
             }
 
             LOGOUT.innerText = "Register";
-            LOGOUT.setAttribute("href", "./register.html");
+            LOGOUT.document.querySelector.href = "./register.html";
 
         }
 
